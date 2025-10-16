@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 1,
         "title": "Unlocking Android",
         "isbn": "1933988673",
@@ -176,5 +177,403 @@
         "categories": [
             "Java"
         ]
-    }
+    },
+    {
+        "id": 11,
+        "title": "Mastering TypeScript",
+        "isbn": "9781617290930",
+        "pageCount": 350,
+        "publishedDate": "2020-01-12T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "A comprehensive guide to building scalable JavaScript applications using TypeScript.",
+        "longDescription": "Mastering TypeScript explores the advanced capabilities of TypeScript, helping developers write more reliable and maintainable code. This book covers advanced types, decorators, and integration with Node.js and frameworks like Angular.",
+        "authors": [
+            "Nathan Rozentals"
+        ],
+        "categories": [
+            "Programming",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Learning React",
+        "isbn": "9781492051725",
+        "pageCount": 450,
+        "publishedDate": "2021-05-10T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "A hands-on guide to building web applications with React and modern JavaScript.",
+        "longDescription": "This book provides practical examples and explanations for developers learning React. It focuses on hooks, context API, and modern state management practices with real-world projects.",
+        "authors": [
+            "Alex Banks",
+            "Eve Porcello"
+        ],
+        "categories": [
+            "Web Development",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Effective JavaScript",
+        "isbn": "9780321812186",
+        "pageCount": 280,
+        "publishedDate": "2012-12-27T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "68 specific ways to harness the power of JavaScript effectively.",
+        "longDescription": "Written by David Herman, this book dives deep into how JavaScript works under the hood and provides best practices for writing clear, efficient, and maintainable JavaScript.",
+        "authors": [
+            "David Herman"
+        ],
+        "categories": [
+            "Programming",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Node.js Design Patterns",
+        "isbn": "9781783287314",
+        "pageCount": 500,
+        "publishedDate": "2020-03-15T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "Build enterprise-grade Node.js applications using proven patterns.",
+        "longDescription": "This book explains how to design scalable and efficient Node.js applications by using design patterns and best practices. It covers streams, event emitters, and modular architectures.",
+        "authors": [
+            "Mario Casciaro",
+            "Luciano Mammino"
+        ],
+        "categories": [
+            "Programming",
+            "Backend Development"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Clean Code",
+        "isbn": "9780132350884",
+        "pageCount": 464,
+        "publishedDate": "2008-08-11T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "A handbook of agile software craftsmanship.",
+        "longDescription": "Robert C. Martin teaches developers how to write clean, readable, and maintainable code. The book introduces principles, patterns, and practices for improving software quality.",
+        "authors": [
+            "Robert C. Martin"
+        ],
+        "categories": [
+            "Software Engineering"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "You Don’t Know JS Yet",
+        "isbn": "9781098124045",
+        "pageCount": 320,
+        "publishedDate": "2020-06-22T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "An in-depth exploration of core JavaScript concepts.",
+        "longDescription": "Kyle Simpson breaks down the JavaScript language into digestible pieces, focusing on scopes, closures, and asynchronous programming to help developers truly understand how JS works.",
+        "authors": [
+            "Kyle Simpson"
+        ],
+        "categories": [
+            "JavaScript",
+            "Programming"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Angular Up & Running",
+        "isbn": "9781491999837",
+        "pageCount": 350,
+        "publishedDate": "2018-04-23T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "A practical guide to building modern web apps with Angular.",
+        "longDescription": "This book provides step-by-step instructions for building Angular apps, covering components, directives, services, and RxJS observables in depth.",
+        "authors": [
+            "Shyam Seshadri"
+        ],
+        "categories": [
+            "Web Development",
+            "Angular"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Pro Git",
+        "isbn": "9781484200773",
+        "pageCount": 458,
+        "publishedDate": "2014-11-18T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "The complete guide to Git version control.",
+        "longDescription": "Scott Chacon and Ben Straub provide an extensive overview of Git, covering branching, merging, rebasing, workflows, and advanced distributed development techniques.",
+        "authors": [
+            "Scott Chacon",
+            "Ben Straub"
+        ],
+        "categories": [
+            "Version Control",
+            "Tools"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "The Pragmatic Programmer",
+        "isbn": "9780135957059",
+        "pageCount": 352,
+        "publishedDate": "2019-09-13T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "Your journey to mastery in software craftsmanship.",
+        "longDescription": "Andy Hunt and Dave Thomas teach timeless principles of pragmatic software development, encouraging developers to think critically and continuously improve their craft.",
+        "authors": [
+            "Andrew Hunt",
+            "David Thomas"
+        ],
+        "categories": [
+            "Software Engineering",
+            "Best Practices"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Designing Data-Intensive Applications",
+        "isbn": "9781449373320",
+        "pageCount": 616,
+        "publishedDate": "2017-03-16T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "shortDescription": "The big ideas behind reliable, scalable, and maintainable systems.",
+        "longDescription": "Martin Kleppmann explores data systems architecture and best practices for building scalable, distributed, and fault-tolerant systems.",
+        "authors": [
+            "Martin Kleppmann"
+        ],
+        "categories": [
+            "Data Systems",
+            "Architecture"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Python Crash Course",
+        "isbn": "9781593279288",
+        "pageCount": 544,
+        "publishedDate": "2019-05-03T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Eric Matthes"
+        ],
+        "categories": [
+            "Python",
+            "Programming"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "JavaScript: The Good Parts",
+        "isbn": "9780596517748",
+        "pageCount": 176,
+        "publishedDate": "2008-05-15T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Douglas Crockford"
+        ],
+        "categories": [
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Refactoring",
+        "isbn": "9780134757599",
+        "pageCount": 448,
+        "publishedDate": "2018-11-19T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Martin Fowler"
+        ],
+        "categories": [
+            "Software Engineering"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Eloquent JavaScript",
+        "isbn": "9781593279509",
+        "pageCount": 472,
+        "publishedDate": "2018-12-04T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Marijn Haverbeke"
+        ],
+        "categories": [
+            "JavaScript",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "React Native in Action",
+        "isbn": "9781617294051",
+        "pageCount": 400,
+        "publishedDate": "2019-03-25T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Nader Dabit"
+        ],
+        "categories": [
+            "Mobile",
+            "React Native"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Deep Learning with Python",
+        "isbn": "9781617294433",
+        "pageCount": 504,
+        "publishedDate": "2017-10-28T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "François Chollet"
+        ],
+        "categories": [
+            "Machine Learning",
+            "AI"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Fluent Python",
+        "isbn": "9781492056355",
+        "pageCount": 1014,
+        "publishedDate": "2022-04-05T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Luciano Ramalho"
+        ],
+        "categories": [
+            "Python"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Head First Design Patterns",
+        "isbn": "9781492078005",
+        "pageCount": 694,
+        "publishedDate": "2020-12-08T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Eric Freeman",
+            "Elisabeth Robson"
+        ],
+        "categories": [
+            "Design Patterns"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Kotlin in Action",
+        "isbn": "9781617293290",
+        "pageCount": 360,
+        "publishedDate": "2017-02-19T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Dmitry Jemerov",
+            "Svetlana Isakova"
+        ],
+        "categories": [
+            "Programming",
+            "Mobile"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Spring in Action",
+        "isbn": "9781617297571",
+        "pageCount": 520,
+        "publishedDate": "2021-06-29T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Craig Walls"
+        ],
+        "categories": [
+            "Java",
+            "Spring"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Building Microservices",
+        "isbn": "9781491950357",
+        "pageCount": 400,
+        "publishedDate": "2015-02-20T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Sam Newman"
+        ],
+        "categories": [
+            "Architecture",
+            "DevOps"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Cloud Native Patterns",
+        "isbn": "9781617294297",
+        "pageCount": 450,
+        "publishedDate": "2019-01-07T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Cornelia Davis"
+        ],
+        "categories": [
+            "Cloud",
+            "Architecture"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Domain-Driven Design",
+        "isbn": "9780321125217",
+        "pageCount": 560,
+        "publishedDate": "2003-08-30T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Eric Evans"
+        ],
+        "categories": [
+            "Architecture",
+            "Design"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "The Phoenix Project",
+        "isbn": "9780988262591",
+        "pageCount": 382,
+        "publishedDate": "2013-01-10T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Gene Kim",
+            "Kevin Behr",
+            "George Spafford"
+        ],
+        "categories": [
+            "DevOps",
+            "IT Management"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Microservices Patterns",
+        "isbn": "9781617294549",
+        "pageCount": 520,
+        "publishedDate": "2018-11-19T00:00:00.000-0700",
+        "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsmmND4V8TKm5UTAtJLvhqaFNgJeHKv-3rQ&s",
+        "authors": [
+            "Chris Richardson"
+        ],
+        "categories": [
+            "Architecture",
+            "Microservices"
+        ]
+    } 
 ]
