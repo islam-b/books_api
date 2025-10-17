@@ -33,6 +33,24 @@ app.get('/api/books', (req, res) => {
         items: paginatedBooks
     });
 });
+app.get('/api/books/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const book = books.find(b => b.id === id);
+    if (!book) {
+        return res.status(404).json({ message: 'Book not found' });
+    }
+    res.json(book);
+});
+app.post('/api/books', (req, res) => {
+    const book = req.body;
+    if (!book || !book.title) {
+        return res.status(400).json({ message: 'Invalid book data' });
+    }
+    // Optionally simulate adding an ID
+    book.id = books.length + 1;
+    books.push(book);
+    res.status(201).json(book);
+});
 // --------------------
 // POST /auth/login
 // --------------------

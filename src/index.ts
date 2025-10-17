@@ -67,6 +67,20 @@ app.get('/api/books/:id', (req: Request, res: Response) => {
   res.json(book);
 });
 
+app.post('/api/books', (req: Request, res: Response) => {
+  const book = req.body;
+
+  if (!book || !book.title) {
+    return res.status(400).json({ message: 'Invalid book data' });
+  }
+
+  // Optionally simulate adding an ID
+  book.id = books.length + 1;
+  books.push(book);
+
+  res.status(201).json(book);
+});
+
 // --------------------
 // POST /auth/login
 // --------------------
