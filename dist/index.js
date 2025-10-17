@@ -58,11 +58,22 @@ app.post('/auth/login', (req, res) => {
     const { username, password } = req.body;
     if (!username || !password)
         return res.status(400).json({ message: 'Username and password are required' });
+    if (username != "demo") {
+        return res.status(403).json({ message: 'Invalid username or password' });
+    }
+    if (password != "Demo@123") {
+        return res.status(403).json({ message: 'Invalid username or password' });
+    }
     // (Fake authentication)
     const fakeToken = {
-        access_token: 'fake_access_token_' + Math.random().toString(36).substring(2),
-        expires_in: 3600,
-        refresh_token: 'fake_refresh_token_' + Math.random().toString(36).substring(2)
+        accessToken: 'fake_access_token_' + Math.random().toString(36).substring(2),
+        expiresIn: 3600,
+        refresh_token: 'fake_refresh_token_' + Math.random().toString(36).substring(2),
+        userInfo: {
+            firstName: "Demo",
+            lastName: "Demo",
+            email: "demo@app.com"
+        }
     };
     res.json(fakeToken);
 });
